@@ -1,0 +1,37 @@
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.city,
+.info {
+    font-size: 16px;
+    line-height: 21px;
+    color: #5f5f5f;
+    margin-bottom: 10px;
+}
+
+.span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 580px) {
+    .title {
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+
+    .city,
+    .info {
+        margin-bottom: 6px;
+    }
+
+    .span {
+        font-size: 12px;
+    }
+}

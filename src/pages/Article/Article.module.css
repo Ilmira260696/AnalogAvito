@@ -1,0 +1,164 @@
+.main {
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    max-width: 1178px;
+    margin: 0 auto;
+    padding: 0px 5px;
+}
+
+.mainMenu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 11px 0;
+    padding: 43px 5px 77px;
+}
+
+.mainArtic {
+    max-width: 1178px;
+    padding: 0 0 70px;
+    margin: 0 auto;
+    padding: 0 5px 70px;
+}
+
+.mainTitle {
+    margin-bottom: 32px;
+    padding: 0 5px;
+    font-size: 32px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.mainText {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.mainContent {
+    max-width: 792px;
+    width: 100%;
+    padding: 0 5px 117px;
+}
+
+.menuLogoLink {
+    width: 54px;
+    height: 50px;
+}
+.menuLogoImg {
+    width: 54px;
+    height: auto;
+}
+
+.menuForm {
+    margin-left: 60px;
+    max-width: 1044px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.articContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: top;
+    -ms-flex-align: top;
+    align-items: top;
+    gap: 59px;
+}
+
+.articleLeft {
+    max-width: 480px;
+}
+
+.articleRight {
+    max-width: 621px;
+}
+
+@media screen and (max-width: 966px) {
+    .articleLeft {
+        margin-right: 20px;
+    }
+    .articContent {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainer {
+        padding: 0 20px 0;
+    }
+    .mainMenu {
+        display: none;
+    }
+    .mainArtic {
+        max-width: 1178px;
+        width: 100%;
+        padding: 55px 0 0px;
+        margin: 0 auto;
+    }
+    .mainTitle {
+        margin-bottom: 14px;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .mainContent {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 0 84px;
+    }
+    .articContent {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .articleLeft {
+        max-width: 100%;
+        width: 100%;
+        min-width: 320px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .articleRight {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+}

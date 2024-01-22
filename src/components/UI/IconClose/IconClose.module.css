@@ -1,0 +1,15 @@
+.svg {
+    cursor: pointer;
+}
+
+.svg:hover path {
+    stroke: #0080c1;
+}
+
+.svg:active path {
+    stroke: #0080c1;
+}
+
+.svgRotate {
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,108 @@
+.form {
+    width: 630px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.form input {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 13px 19px;
+}
+
+.form input::-webkit-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form input:-ms-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form input::-ms-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form input::placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.form label {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #c4c4c4;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.formDiv {
+    display: inline-block;
+    margin: 0 7px 20px;
+}
+.error {
+    background: rgb(241, 156, 156);
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    .form {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .form input {
+        border-radius: 30px;
+        padding: 9px 17px;
+    }
+    .form input::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .form input:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .form input::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .form input::placeholder {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .form label {
+        font-size: 14px;
+        line-height: 21px;
+        color: #c4c4c4;
+        margin-bottom: 6px;
+    }
+    .formDiv {
+        margin: 0 0px 18px;
+    }
+    .input,
+    .inputPhone {
+        width: 100%;
+    }
+}

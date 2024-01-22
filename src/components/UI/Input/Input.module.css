@@ -1,0 +1,192 @@
+.input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d0cece;
+    padding: 8px 1px;
+}
+
+.input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    color: #d0cece;
+}
+
+.input:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    color: #d0cece;
+}
+
+.input::-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    color: #d0cece;
+}
+
+.input::placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+    color: #d0cece;
+}
+
+.searchText {
+    width: 100%;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: transparent;
+    padding: 13px 19px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.searchText::-webkit-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.searchText:-ms-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.searchText::-ms-input-placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.searchText::placeholder {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+}
+
+.searchTextMob {
+    display: none;
+}
+
+.inputPersonal {
+    width: 300px;
+}
+.inputPhone {
+    width: 614px;
+}
+
+.areaAdv,
+.areaAdvPrice {
+    padding: 13px 19px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.areaAdvPrice {
+    width: 202px;
+}
+
+.areaAdv::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .input {
+        width: 100%;
+        border: 1px solid #d0cece;
+        padding: 9px 17px;
+        border-radius: 30px;
+    }
+    .input::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+        color: #b3b3b3;
+    }
+    .input:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+        color: #b3b3b3;
+    }
+    .input::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 21px;
+        color: #b3b3b3;
+    }
+    .input::placeholder {
+        font-size: 14px;
+        line-height: 21px;
+        color: #b3b3b3;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .inputPersonal,
+    .inputPhone {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .searchText {
+        display: none;
+    }
+
+    .searchTextMob {
+        display: inline-block;
+        width: 100%;
+        height: 32px;
+        border: none;
+        border-radius: 30px;
+        background-color: #ffffff;
+        padding: 5px 17px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }
+    .searchTextMob::-webkit-input-placeholder {
+        background-color: transparent;
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .searchTextMob:-ms-input-placeholder {
+        background-color: transparent;
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .searchTextMob::-ms-input-placeholder {
+        background-color: transparent;
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .searchTextMob::placeholder {
+        background-color: transparent;
+        color: #b3b3b3;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .areaAdv,
+    .areaAdvPrice {
+        border-radius: 30px;
+    }
+    .areaAdvPrice {
+        width: 100%;
+    }
+}

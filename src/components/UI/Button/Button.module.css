@@ -1,0 +1,233 @@
+.btnEnter,
+.searchBtn,
+.searchMainBtn,
+.btnPersonal,
+.btnSeller,
+.btnAdv,
+.articleBtn,
+.btnRemove,
+.addComment,
+.back {
+    background-color: #009ee4;
+    border: 1px solid #009ee4;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.btnEnter:hover,
+.searchBtn:hover,
+.searchMainBtn:hover,
+.btnPersonal:hover,
+.btnSeller:hover,
+.btnAdv:hover,
+.articleBtn:hover,
+.btnRemove:hover,
+.addComment:hover,
+.back:hover {
+    background-color: #0080c1;
+}
+
+.btnEnter:active,
+.searchBtn:active,
+.searchMainBtn:active,
+.btnPersonal:active,
+.btnSeller:active,
+.btnAdv:active,
+.articleBtn:active,
+.btnRemove:active,
+.addComment:active,
+.back:active {
+    background-color: #0080c1;
+}
+.disabled {
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+.btnEnter,
+.btnSignup {
+    width: 278px;
+    height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.05px;
+}
+
+.btnEnter {
+    margin-top: 40px;
+    border: none;
+}
+
+.btnSignup {
+    background-color: transparent;
+    border: 1px solid #d0cece;
+    margin-top: 10px;
+    color: #000000;
+}
+.btnSignup:hover {
+    background-color: #d1e7f0;
+}
+.btnSignup:active {
+    background-color: #0080c1;
+    color: #ffffff;
+}
+
+.btnMain {
+    padding: 8px 24px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.btnMain:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #ffffff;
+}
+
+.searchBtn,
+.searchMainBtn,
+.back {
+    margin-left: 10px;
+    padding: 13px 56px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.back {
+    font-size: 24px;
+}
+
+.searchMainBtn,
+.back {
+    padding: 13px 36px;
+}
+
+.btnPersonal {
+    font-size: 16px;
+    line-height: 1;
+    width: 154px;
+    height: 50px;
+    margin: 10px 7px 0;
+    border-radius: 6px;
+}
+.btnSeller {
+    margin-top: 20px;
+    border-radius: 6px;
+    width: 214px;
+    height: 62px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.btnExit,
+.btnComments,
+.auth {
+    border: 0;
+    background: none;
+}
+
+.btnExit,
+.auth {
+    color: #8f9399;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.auth {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btnExit:hover,
+.auth:hover {
+    color: #6b6e74;
+}
+.btnExit:active,
+.auth:hover {
+    color: #6b6e74;
+}
+
+.btnComments {
+    font-size: 16px;
+    line-height: 21px;
+    color: #009ee4;
+    transition: color 0.3s;
+}
+
+.btnComments:active {
+    text-decoration: underline;
+    color: #0080c1;
+}
+.btnComments:hover {
+    text-decoration: underline;
+    color: #0080c1;
+}
+.btnAdv,
+.addComment,
+.articleBtn,
+.btnRemove {
+    border-radius: 6px;
+    padding: 13px 37px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+}
+@media screen and (max-width: 1020px) {
+    .articleBtn,
+    .btnRemove {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .btnEnter {
+        height: 46px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        border: none;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .btnSignup {
+        height: 46px;
+        border: 1px solid #d9d9d9;
+        font-size: 16px;
+        line-height: 24px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .btnPersonal {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .btnPersonal {
+        font-size: 16px;
+        line-height: 1;
+        color: #ffffff;
+        height: 50px;
+        margin: 10px 7px 0;
+        background-color: #009ee4;
+        border-radius: 6px;
+        border: 1px solid #009ee4;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .searchBtn,
+    .searchMainBtn,
+    .back {
+        display: none;
+    }
+    .btnSeller {
+        width: 100%;
+        height: 57px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}

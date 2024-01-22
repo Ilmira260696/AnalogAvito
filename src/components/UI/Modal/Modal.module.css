@@ -1,0 +1,39 @@
+.none {
+    display: none;
+}
+.modalBlock {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    overflow: auto;
+    z-index: 3000;
+    display: flex;
+}
+.pointerEvents {
+    pointer-events: none;
+}
+.modal {
+    margin: auto;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    flex: 0 0 auto;
+    display: flex;
+}
+.modalContent {
+    overflow: visible;
+    display: block;
+    pointer-events: all;
+}
+
+@media (max-width: 590px) {
+    .modalBlock {
+        z-index: 3;
+        padding: 10px;
+    }
+    .modal {
+        width: 100%;
+    }
+}

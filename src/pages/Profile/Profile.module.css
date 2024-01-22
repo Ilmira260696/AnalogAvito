@@ -1,0 +1,147 @@
+.mainContainer {
+    max-width: 1178px;
+    margin: 0 auto;
+}
+.centerBlock {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mainProfile {
+    width: 100%;
+    padding: 0 0 70px;
+}
+
+.profileSellContent {
+    width: 100%;
+}
+
+.profileContent {
+    max-width: 834px;
+}
+
+.headingSeller,
+.heading {
+    font-size: 40px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.profileTitle,
+.mainTitle {
+    font-size: 32px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.profileTitle {
+    margin-bottom: 20px;
+}
+
+.mainTitle {
+    margin-bottom: 30px;
+}
+
+.profilePersonal,
+.profileSeller {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: top;
+    -ms-flex-align: top;
+    align-items: top;
+}
+
+.profileSeller {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+}
+
+.profilePersonal {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@media (max-width: 890px) {
+    .profileSellContent {
+        max-width: 834px;
+        width: 100%;
+    }
+
+    .profileContent {
+        max-width: 834px;
+        width: 100%;
+    }
+
+    .profilePersonal,
+    .profileSeller {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 620px) {
+    .mainProfile {
+        width: 100%;
+        padding: 0 0 40px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .mainTitle {
+        font-size: 18px;
+    }
+    .centerBlock {
+        position: relative;
+    }
+    .centerBlock svg {
+        top: 0px;
+        left: 10px;
+    }
+
+    .mainContainer {
+        padding: 85px 0px 84px;
+    }
+
+    .profileSellContent {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .profileSeller {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .headingSeller,
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .headingSeller {
+        padding: 0 0 0 26px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .headingSeller:hover::before {
+        border-top: 2px solid #0080c1;
+        border-left: 2px solid #0080c1;
+    }
+    .backBlock:hover svg path {
+        stroke: #0080c1;
+    }
+    .backBlock:hover h2 {
+        color: #0080c1;
+    }
+    .backBlock:active svg path {
+        stroke: #0080c1;
+    }
+    .backBlock:active h2 {
+        color: #0080c1;
+    }
+}

@@ -1,0 +1,19 @@
+.personalRight {
+    width: 630px;
+}
+
+.sellerRight {
+    width: auto;
+}
+
+@media screen and (max-width: 620px) {
+    .personalRight {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .sellerRight {
+        width: 100%;
+    }
+}
