@@ -1,14 +1,15 @@
-import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router';
-import { toast } from 'react-toastify';
-import s from './AddNewAdv.module.css';
-import IconClose from '../../UI/IconClose/IconClose';
-import Input from '../../UI/Input/Input';
-import Button from '../../UI/Button/Button';
+import { useState } from 'react'
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
+import s from './AddNewAdv.module.css'
+import IconClose from '../../UI/IconClose/IconClose'
+import Input from '../../UI/Input/Input'
+import Button from '../../UI/Button/Button'
 import {
     useAddNewAdvTextMutation,
     useUploadImageAdvMutation,
-} from '../../../serviceQuery/adv';
+} from '../../../serviceQuery/adv'
 
 export default function AddNewAdv({ setActive, mobile = false }) {
     const navigate = useNavigate();
